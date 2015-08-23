@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Reset - http://meyerweb.com/eric/tools/css/reset/ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+/* My stuff... */
+body {
+  background: rgb(40,40,40);
+  color: rgb(220,220,220);
+  font: 13.34px Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home {
+  padding: 15% 0 0;
+  text-align: center;
+}
+
+.name {
+  font-size: 6em;
+  line-height: normal;
+}
+
+.links {
+  font-size: 1.2em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.links a {
+  margin: 0 5px;
+  color: #aaa;
+}
+
+.links a:hover {
+  color: #8c8c8c;
+}
+
+/* SEO */
+#profile, #schema {
+  display: none;
+}
+
+@media only screen and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .name {
+    font-size: 15vw;
+  }
+  .links {
+    font-size: 3.5vw;
+  }
+}
